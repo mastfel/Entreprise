@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Noto+Serif:ital@0;1&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  background-color: rgb(199, 236, 203);
+  
+}
+
+
+.nav-link{
+    color: #e2dfdb!important;
+    font-style: italic;
+    
+  }
+  
+  .nav-link:hover{
+    font-weight: bold;
+    background-color:rgb(10, 10, 0) !important;
+    border: solid #caca00 5px;
+    border-radius: 15%;
+   
+  }
+ thead {
+    color:rgb(156, 23, 23);
+    background-color: aliceblue;
+  }
+  tbody{
+    color:rgb(236, 236, 246);
+    background-color: rgb(0, 5, 5);
+  }
+  footer{
+    background-color: black;
+  }
