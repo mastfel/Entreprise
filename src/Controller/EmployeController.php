@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 class EmployeController extends AbstractController
 {
     /**
-     * @Route ("/ajouter-un-employe.html", name="employe_create", methods={"GET|POST"})
+     * @Route ("/ajouter-un-employe", name="employe_create", methods={"GET|POST"})
      */
     public function create (Request $request, EntityManagerInterface $entityManager ):Response
     {
